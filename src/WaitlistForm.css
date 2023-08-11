@@ -66,4 +66,20 @@
     left: 50%;
     transform: translateX(-50%);
   }
+  @media (max-width: 768px) {
+    .waitlist-form-container {
+      padding: 20px;
+    }
+  
+    .waitlist-form {
+      max-width: 80%;
+    }
+  
+    .waitlist-form label,
+    .waitlist-form input,
+    .waitlist-form select,
+    .waitlist-form button {
+      font-size: 16px;
+    }
+  }
   
